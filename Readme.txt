@@ -1,0 +1,1 @@
+sudo nohup python3 /home/ubuntu/openwhisk/controller.py 2 experiment_serverless_2 jmeter/bin/jmeter.sh -n -t "/home/ubuntu/openwhisk/outputprediction/experiments/experiments.jmx" -l "/home/ubuntu/experiment_1_logs.csv" > /home/ubuntu/experiment.log
